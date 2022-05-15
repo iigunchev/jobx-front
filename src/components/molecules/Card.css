@@ -1,0 +1,17 @@
+.card__wrapper {
+    border: 2px solid lightgrey;
+    border-radius: 8px;
+    padding: 1em;
+    min-width: 350px;
+    transition: all 0.1s ease-out;
+}
+.card__wrapper:hover {
+  border-color: #A855F7;
+  background-color: #E9D5FF;
+}
+
+@media only screen and (max-width: 820px) {
+    .card__wrapper {
+        max-width: 768px;
+    }
+}
