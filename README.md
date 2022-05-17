@@ -26,13 +26,6 @@ For testing purposes, mocked data has been created in order to display the infor
 ## Atomic design
 
 I've chosen a folder structure based on Atomic Design (for more info https://bradfrost.com/blog/post/atomic-web-design/)
-    .
-    ├── components                  # Components folder
-    │   ├── atoms                   # Title, Description, Tags
-    │   ├── molecules               # Card
-    │   └── organisms               # ResponsiveContainer
-    └── ...
-
 
 ### Semantic HTML
 
