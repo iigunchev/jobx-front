@@ -1,6 +1,5 @@
 .cards__container {
     margin-top: 1em;
-    padding-bottom: 1em;
     display: flex;
     gap: 2em;
     width: 800px;

@@ -1,5 +1,62 @@
-# Getting Started with Create React App
+# JOBarcelona '22 | Gift list Front-end
 
+> This project was realized for the JOBarcelona '22 Hackaton front-end category.
+> Consists of allowing its users to create gift lists and customize them.
+
+It basically render a ScrollBox with many cards inside of it, with horizontal scroller in PC resolution, but in Mobile resolution the scroll changes to vertically.
+
+### Challenge
+
+<img src="src/assets/challenge_screenshot.png" alt="challenge screenshot" />
+
+### Final result
+
+<img src="src/assets/final_result.png" alt="final result" />
+
+
+### Live Version
+
+https://jobx-front.vercel.app/
+
+## Mocked Data
+
+For testing purposes, mocked data has been created in order to display the information.
+
+
+## Atomic design
+
+I've chosen a folder structure based on Atomic Design (for more info https://bradfrost.com/blog/post/atomic-web-design/)
+    .
+    ├── components                  # Components folder
+    │   ├── atoms                   # Title, Description, Tags
+    │   ├── molecules               # Card
+    │   └── organisms               # ResponsiveContainer
+    └── ...
+
+
+### Semantic HTML
+
+In order to improve SEO and screen readers, I've used semantic HTML tags like <article> and <section>.
+
+## Technologies
+
+- React
+- StoryBook
+- TailwindCSS
+
+## Installation
+
+How to install the project
+
+> This project dependencies were installed with npm
+
+```shell
+    # Clone repository
+    git clone https://github.com/iigunchev/jobx-front.git
+
+    # Install dependencies
+    npm install
+```
 
 ## Available Scripts
 
@@ -40,28 +97,6 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[MIT](https://opensource.org/licenses/MIT)
