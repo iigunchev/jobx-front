@@ -7,11 +7,11 @@ It basically render a ScrollBox with many cards inside of it, with horizontal sc
 
 ### Challenge
 
-![alt text](https://ibb.co/pzvPvJ0)
+<img src="./src/assets/challenge_screenshot.png">
 
 ### Final result
 
-![alt text](https://ibb.co/vhyssrk)
+<img src="./src/assets/final_result.png">
 
 ### Live Version
 
