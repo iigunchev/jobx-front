@@ -1,6 +1,6 @@
 import './App.css';
 // Components
-import ResponsiveContainer from './organisms/ResponsiveContainer';
+import ResponsiveContainer from './components/organisms/ResponsiveContainer';
 // MockData
 import data from './data/data';
 
