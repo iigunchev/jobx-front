@@ -1,9 +1,9 @@
 # JOBarcelona '22 | Gift list Front-end
 
-> This project was realized for the JOBarcelona '22 Hackaton front-end category.
-> Consists of allowing its users to create gift lists and customize them.
+> This project was created for the JOBarcelona '22 Hackaton front-end category.
+The main goal is to create a responsive container that displays a set of cards vertically on mobile and tablet. On desktop it should display a horizontal scrollable box.
+More information: https://nuwe.io/challenge/jobarcelona-22-front-end
 
-It basically render a ScrollBox with many cards inside of it, with horizontal scroller in PC resolution, but in Mobile resolution the scroll changes to vertically.
 
 ### Challenge
 
